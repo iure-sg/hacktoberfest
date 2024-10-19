@@ -13,11 +13,15 @@
     --foreground: #ededed;
   }
 }
-
+/* import font  from folder */
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Georgia, Helvetica, sans-serif !important;
+  font-family:  Georgia, Helvetica, sans-serif !important;
+
+  @apply antialiased;
+
+  @apply font-geist-sans;
 }
 
 @layer utilities {
